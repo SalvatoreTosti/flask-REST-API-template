@@ -4,6 +4,7 @@ attrs==19.3.0
 black==19.10b0
 Click==7.0
 Flask==1.0.2
+Flask-HTTPAuth==4.1.0
 Flask-Login==0.4.1
 Flask-Migrate==2.5.2
 Flask-SocketIO==3.2.1

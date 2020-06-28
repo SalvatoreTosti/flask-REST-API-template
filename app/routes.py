@@ -3,6 +3,9 @@ from app.interfaces import user
 from flask import render_template, request, redirect, url_for
 from flask_login import current_user, login_required
 
+from app.REST import RESTInterface
+
+
 @app.route('/')
 @app.route('/index')
 @login_required
